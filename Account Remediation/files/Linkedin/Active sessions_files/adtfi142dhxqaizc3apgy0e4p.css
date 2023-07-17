@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+#layout-footer .nav-footer > li, #layout-footer .nav-legal > li, #layout-footer .copyright { border-right: 1px solid rgb(204, 204, 204); margin-right: 8px; padding-right: 8px; }
+
+#layout-footer { font-size: 12px; line-height: 14px; color: rgb(102, 105, 106); font-weight: normal; padding-top: 10px; padding-bottom: 10px; margin-left: auto; margin-right: auto; width: 974px; border-top: 1px solid rgb(204, 204, 204); }
+
+#layout-footer .nav-footer > li, #layout-footer .nav-legal > li { font-size: 12px; line-height: 14px; color: rgb(102, 105, 106); font-weight: normal; margin-top: 5px; margin-bottom: 5px; float: left; }
+
+#layout-footer .nav-footer > li:last-child, #layout-footer .nav-legal > li:last-child { border-right: none; margin-right: 0px; padding-right: 0px; }
+
+#layout-footer .nav-footer::after { content: ""; display: table; clear: both; }
+
+#layout-footer .nav-footer > li { font-size: 13px; line-height: 17px; color: rgb(51, 51, 51); font-weight: normal; }
+
+#layout-footer .nav-footer.li-links { margin-right: 8px; float: left; }
+
+#layout-footer .nav-footer.directories li:first-child { font-size: 13px; line-height: 17px; color: rgb(102, 105, 106); font-weight: normal; border-right: 0px; border-left: 1px solid rgb(204, 204, 204); padding-left: 8px; }
+
+#layout-footer .copyright { margin-top: 5px; margin-bottom: 5px; float: left; }
+
+#layout-footer .copyright.guest span { float: left; height: 16px; width: 62px; text-indent: -119988px; overflow: hidden; text-align: left; margin: -2px 3px -2px 0px; padding-left: 0px; padding-right: 0px; background: url("/images/logos/logo_linkedin_med_grey_trans_64x16_v1.png") left top no-repeat scroll transparent; }
+
+#layout-footer a { color: rgb(0, 111, 166); text-decoration: none; }
+
+#layout-footer a.hover, #layout-footer a:hover, #layout-footer a.focus, #layout-footer a:focus { text-decoration: underline; }
+
+#layout-footer .footer-upgrade-link { font-weight: bold; }
+
+#nav-utility-lang { visibility: hidden; position: relative; }
+
+.js #nav-utility-lang { visibility: visible; }
+
+#nav-utility-lang.hover #lang-list { display: block; z-index: 10100; }
+
+#li-about { position: relative; }
+
+#li-about:hover > #li-about-options, #li-about:focus-within > #li-about-options { height: auto; width: auto; overflow: visible; clip: auto; position: absolute !important; }
+
+#li-about-trigger:hover + #li-about-options { height: auto; width: auto; overflow: visible; clip: auto; position: absolute !important; }
+
+#lang-list, #li-about-options { min-width: 75px; background: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 1px, rgba(0, 0, 0, 0.03) -1px 0px 0px, rgba(0, 0, 0, 0.03) 1px 0px 0px, rgba(0, 0, 0, 0.12) 0px 1px 0px; bottom: 1.2em; padding: 5px; position: absolute; left: 3px; }
+
+.ie.lte8 #lang-list, .ie.lte8 #li-about-options { border-bottom: 2px solid rgb(204, 204, 204); }
+
+#lang-list:hover, #lang-list.expanded, #li-about-options:hover, #li-about-options.expanded { height: auto; width: auto; overflow: visible; clip: auto; position: absolute !important; }
+
+#lang-list a, #li-about-options a { padding: 5px 10px; color: rgb(0, 111, 166); text-decoration: none; display: block; }
+
+#lang-list a.hover, #lang-list a:hover, #lang-list a.focus, #lang-list a:focus, #li-about-options a.hover, #li-about-options a:hover, #li-about-options a.focus, #li-about-options a:focus { text-decoration: none; }
+
+#lang-list a.visited, #lang-list a:visited, #li-about-options a.visited, #li-about-options a:visited { color: rgb(150, 153, 156); }
+
+#lang-list a:visited, #li-about-options a:visited { color: rgb(0, 111, 166); }
+
+#lang-list a:hover, #lang-list a:focus, #lang-list a:visited:hover, #lang-list a:visited:focus, #li-about-options a:hover, #li-about-options a:focus, #li-about-options a:visited:hover, #li-about-options a:visited:focus { background: rgb(0, 111, 166); color: rgb(255, 255, 255); }
+
+#lang-list .selected a, #li-about-options .selected a { font-size: 12px; line-height: 14px; color: rgb(51, 51, 51); font-weight: normal; }
+
+#lang-list .selected a:hover, #lang-list .selected a:focus, #li-about-options .selected a:hover, #li-about-options .selected a:focus { font-size: 12px; line-height: 14px; color: rgb(51, 51, 51); font-weight: normal; background: none; cursor: text; }
+
+#lang-list { display: none; }
+
+#li-about-options { height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); position: absolute !important; }

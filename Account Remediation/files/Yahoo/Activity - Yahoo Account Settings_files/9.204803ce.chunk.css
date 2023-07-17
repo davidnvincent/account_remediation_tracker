@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.country-code-dropdown-container { height: 36px; position: relative; }
+
+.country-code-dropdown, .dropdown-dialling-code { height: 36px; position: absolute; }
+
+.country-code-dropdown { opacity: 0; }

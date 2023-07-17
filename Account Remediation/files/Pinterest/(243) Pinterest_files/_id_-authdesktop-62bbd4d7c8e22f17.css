@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+.ProductCarousel-OuterScrollContainer { overflow: hidden; }
+
+.ProductCarousel-InnerScrollContainer { overflow: hidden auto; }
+
+.ProductCarousel-InnerScrollContainer::-webkit-scrollbar { display: none; }
+
+.ShopCarousel-OuterScrollContainer { overflow: hidden; }
+
+.ShopCarousel-InnerScrollContainer { overflow: auto hidden; }
+
+.ShopCarousel-InnerScrollContainer::-webkit-scrollbar { display: none; }

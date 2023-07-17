@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+#notice-cookie-usage { height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); position: absolute !important; }
+
+#global-alert-queue.layout-wrapper { width: 1128px; }
+
+@media screen and (max-width: 769px) {
+  #global-alert-queue .alert { display: block; }
+}
+
+#global-alert-queue .alert.alert a { text-decoration: underline; }
+
+#global-alert-queue .alert.alert a:hover { text-decoration: none; }
+
+#global-alert-queue .message-title { font-size: 16px; margin-bottom: 8px; font-weight: bold; }
+
+#global-alert-queue .message-wrapper p:not(:first-child) { margin: 8px 0px 0px; }
+
+#global-alert-queue .notice { background: rgb(92, 111, 124); }
+
+#global-alert-queue .notice p { color: rgb(255, 255, 255); }
+
+#global-alert-queue .notice .action-wrapper > button { color: rgb(92, 111, 124); }
+
+#global-alert-queue .message-wrapper { -webkit-box-flex: 1; flex: 1 1 0%; }
+
+#global-alert-queue .action-wrapper { margin: 16px 0px 0px; }
+
+#global-alert-queue .action-wrapper button { padding: 8px; border: none; line-height: 20px; margin-right: 8px; }
+
+#global-alert-queue .action-wrapper button:focus:not(:disabled), #global-alert-queue .action-wrapper button:hover:not(:disabled) { padding: 8px; background-color: rgba(255, 255, 255, 0.85); color: rgba(0, 0, 0, 0.9); border: none; line-height: 20px; }
+
+@media screen and (max-width: 769px) {
+  #global-alert-queue .action-wrapper { display: flex; -webkit-box-orient: vertical; -webkit-box-direction: reverse; flex-direction: column-reverse; margin: 0px; }
+  #global-alert-queue .action-wrapper button { width: 100%; margin: 16px 0px 0px; }
+}
+
+.global-alert-temp-placeholder { display: none; }
+
+#layout-header.minimal-nav .incareer-logo { height: auto; width: auto; }
+
+#layout-header.minimal-nav .incareer-logo .li-icon { height: 34px; }
+
+#layout-footer .screenreader-only { text-indent: -99999px; position: absolute; }
+
+#layout-footer .copyright.incareer .li-icon { height: 12px; position: relative; padding-right: 2px; top: 2px; }
+
+#layout-footer .copyright.incareer .li-icon svg { width: inherit; height: inherit; }
+
+#layout-footer .copyright.dot-cn-icp { float: none; }

@@ -1,0 +1,56 @@
+@charset "utf-8";
+
+#header-go-to-lynda:not([aria-haspopup="true"]):hover + #premium-global-nav-tooltip-hover, #header-go-to-lynda:not([aria-haspopup="true"]):focus + #premium-global-nav-tooltip-hover, #header-go-to-learning:not([aria-haspopup="true"]):hover + #premium-global-nav-tooltip-hover, #header-go-to-learning:not([aria-haspopup="true"]):focus + #premium-global-nav-tooltip-hover, #header-go-to-spark:not([aria-haspopup="true"]):hover + #premium-global-nav-tooltip-hover, #header-go-to-spark:not([aria-haspopup="true"]):focus + #premium-global-nav-tooltip-hover { display: block; }
+
+#premium-global-nav-tooltip-hover { display: none; position: absolute; right: -1px; top: 28px; padding-top: 9px; z-index: 1; }
+
+#premium-global-nav-tooltip-hover::after { height: 0px; width: 0px; border-style: dashed dashed solid; border-color: transparent transparent rgb(255, 255, 255); border-width: 0px 9px 9px; content: ""; right: 40px; top: 0px; margin-left: -9px; position: absolute; }
+
+#premium-global-nav-tooltip-hover::before { height: 0px; width: 0px; border-style: dashed dashed solid; border-color: transparent transparent rgba(0, 0, 0, 0.2); border-width: 0px 10px 10px; content: ""; right: 39px; top: -1px; margin-left: -10px; position: absolute; }
+
+#premium-global-nav-tooltip-hover:hover, #premium-global-nav-tooltip-hover:focus { display: block; }
+
+.slide-up #premium-global-nav-tooltip-hover { display: none; }
+
+#premium-global-nav-tooltip-hover .premium-global-nav-tooltip-content { width: 288px; padding: 16px; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 3px; }
+
+#premium-global-nav-tooltip-hover .premium-global-nav-tooltip-logo { vertical-align: middle; zoom: 1; background-image: url("/images/themes/katy/icons/premium_brand/icon_module_premium_logo_83x8_v1.svg"); background-size: 90px; width: 90px; height: 10px; text-indent: -119988px; overflow: hidden; text-align: left; display: block; }
+
+#premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-tooltip-logo { background: url("/images/promo/promo_spark_learning_logo_80x14_v1.png") center center no-repeat; width: 100%; height: 14px; }
+
+#premium-global-nav-tooltip-hover .premium-lynda-global-nav-img { background: url("/images/promo/promo_lynda_183x100_v1.jpg") center center no-repeat; width: 100%; height: 100px; }
+
+#premium-global-nav-tooltip-hover .premium-learning-global-nav-img { background: url("/images/promo/promo_learning_183x106_v1.png") center center no-repeat; width: 100%; height: 106px; }
+
+#premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-img { background: url("/images/promo/promo_spark_learning_181x104_v1.png") center center no-repeat; width: 100%; height: 104px; }
+
+#premium-global-nav-tooltip-hover .premium-global-nav-hover-title { font-size: 16px; line-height: 20px; color: rgb(51, 51, 51); font-weight: normal; padding: 0px; margin: 16px 0px 8px; }
+
+#premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-title { font-size: 18px; font-weight: bold; line-height: 22px; color: rgb(0, 0, 0); padding: 0px; margin: 16px 0px 8px; text-align: center; }
+
+#premium-global-nav-tooltip-hover .premium-global-nav-hover-copy { font-size: 13px; line-height: 17px; color: rgb(51, 51, 51); font-weight: normal; padding: 0px; margin: 4px 0px 8px; }
+
+#premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-copy { font-size: 13px; line-height: 17px; color: rgb(102, 105, 106); font-weight: normal; padding: 0px; margin: 4px 0px 8px; text-align: center; }
+
+#premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-link { font-weight: bold; border-width: 1px; border-style: solid; cursor: pointer; margin: 0px; overflow: visible; width: auto; text-shadow: rgba(0, 0, 0, 0.35) 0px 1px 1px; border-radius: 3px; padding: 0px 13px; height: 31px; line-height: 29px; box-sizing: border-box; font-size: 13px; color: rgb(255, 255, 255); background-color: rgb(40, 123, 188); border-color: rgb(27, 84, 128); background-image: -webkit-linear-gradient(top, rgb(40, 123, 188) 0%, rgb(35, 99, 154) 100%); white-space: nowrap; display: inline-block; zoom: 1; vertical-align: middle; text-align: center; text-decoration: none !important; }
+
+#premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-link.hover, #premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-link:hover, #premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-link.focus, #premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-link:focus { background-color: rgb(38, 114, 174); background-image: -webkit-linear-gradient(top, rgb(38, 114, 174) 0%, rgb(30, 79, 126) 100%); box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 3px; }
+
+#premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-link.active, #premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-link:active { box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 2px inset; }
+
+#premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-link.disabled, #premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-hover-link[disabled] { background-color: rgb(38, 114, 174); background-image: -webkit-linear-gradient(top, rgb(38, 114, 174) 0%, rgb(30, 79, 126) 100%); box-shadow: none; cursor: default; opacity: 0.6; }
+
+#premium-global-nav-tooltip-hover .premium-spark-learning-nav-cta-container { text-align: center; }
+
+#premium-global-nav-tooltip-hover .premium-global-nav-hover-link { font-size: 13px; line-height: 17px; color: rgb(0, 111, 166); font-weight: bold; text-decoration: none; }
+
+#premium-global-nav-tooltip-hover .premium-global-nav-hover-link.hover, #premium-global-nav-tooltip-hover .premium-global-nav-hover-link:hover, #premium-global-nav-tooltip-hover .premium-global-nav-hover-link.focus, #premium-global-nav-tooltip-hover .premium-global-nav-hover-link:focus { text-decoration: none; }
+
+#premium-global-nav-tooltip-hover .premium-global-nav-hover-link.visited, #premium-global-nav-tooltip-hover .premium-global-nav-hover-link:visited { color: rgb(150, 153, 156); }
+
+@media not all, not all, only screen and (-webkit-min-device-pixel-ratio: 2), not all {
+  #premium-global-nav-tooltip-hover .premium-lynda-global-nav-img { background: url("/images/promo/promo_lynda_366x200_v1.jpg") center center / 183px 100px no-repeat; }
+  #premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-img { background: url("/images/promo/promo_spark_learning_543x313_v1.png") center center / 181px 104px no-repeat; }
+  #premium-global-nav-tooltip-hover .premium-spark-learning-global-nav-tooltip-logo { background: url("/images/promo/promo_spark_learning_logo_160x28_v1.png") center center / 80px 14px no-repeat; }
+  #premium-global-nav-tooltip-hover .premium-learning-global-nav-img { background: url("/images/promo/promo_learning_366x212_v1.png") center center / 183px 106px no-repeat; }
+}

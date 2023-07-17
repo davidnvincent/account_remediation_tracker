@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.uh-logo { border: 0px; margin: 11px auto; max-width: 90vw; height: 25px; }
+
+.uh-logo-helper { height: 100%; }
+
+.uh-logo, .uh-logo-helper { display: inline-block; }

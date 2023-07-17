@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.css-75hnl6 { width: 20px; height: 20px; }
+
+@media (max-width: 480px) {
+  .css-75hnl6 { height: 16px; width: 16px; }
+}
+
+.css-1cgm2cz { opacity: 0; position: absolute; }
+
+.css-1cgm2cz:focus + div, .css-1cgm2cz:hover + div { border: 1px solid rgb(38, 40, 42); }
+
+.css-1cgm2cz:checked + div { border: 1px solid transparent; box-shadow: none; }
+
+.css-t3kg6a { box-sizing: border-box; display: inline-block; cursor: pointer; background-color: rgb(255, 255, 255); border: 1px solid rgb(142, 142, 142); width: 20px; height: 20px; }
+
+@media (max-width: 480px) {
+  .css-t3kg6a { height: 16px; width: 16px; }
+}

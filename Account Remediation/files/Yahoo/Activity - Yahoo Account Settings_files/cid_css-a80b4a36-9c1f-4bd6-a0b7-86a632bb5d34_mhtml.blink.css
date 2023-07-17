@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+.mbr-ybar { position: sticky; width: 100%; top: 0px; z-index: 2; }
+
+.ybar-dark { background-image: linear-gradient(-224deg, rgb(114, 130, 251) 0px, rgb(117, 91, 249) 86%, rgb(121, 52, 247) 95%); }
+
+.ybar-light { background-color: rgb(255, 255, 255); }
+
+.mbr-ybar-static-mh { display: none; }
+
+@media screen and (max-width: 480px) {
+  .mbr-ybar-uh { display: none; }
+  .mbr-ybar-static-mh { display: block; }
+  .aol.ybar-light { background-color: rgb(38, 40, 42); }
+  .techcrunch.ybar-light { background-color: rgb(0, 165, 98); }
+  .engadget.ybar-light { background-color: rgb(0, 0, 0); }
+  .builtbygirls.ybar-light { background-color: rgb(255, 242, 237); }
+}

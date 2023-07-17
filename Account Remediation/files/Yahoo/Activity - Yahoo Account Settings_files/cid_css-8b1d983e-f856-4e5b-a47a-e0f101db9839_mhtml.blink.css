@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+.mbr-ybar .static-hd { background-color: var(--login-header-background-color); color: var(--login-header-text-color); text-align: center; }
+
+.ybar-dark .static-hd { background-image: linear-gradient(-84deg, rgb(114, 129, 251) 5%, rgb(121, 51, 247) 100%); }
+
+[dir="ltr"] .mbr-ybar .static-hd { padding-left: 50px; }
+
+[dir="rtl"] .mbr-ybar .static-hd { padding-right: 50px; }
+
+@media screen and (max-width: 480px) {
+  .ybar-dark { background-image: linear-gradient(-84deg, rgb(114, 129, 251) 5%, rgb(121, 51, 247) 100%); }
+  .mbr-ybar { height: 50px; text-align: center; }
+  [dir="ltr"] .mbr-ybar .static-hd { padding-left: 0px; }
+  [dir="rtl"] .mbr-ybar .static-hd { padding-right: 0px; }
+}

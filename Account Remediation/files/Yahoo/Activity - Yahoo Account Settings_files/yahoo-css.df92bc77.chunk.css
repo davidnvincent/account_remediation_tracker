@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+.theme-yahoo .btn { border-radius: 20px; }
+
+.theme-yahoo .btn-primary { background-color: rgb(24, 143, 255); border-color: rgb(24, 143, 255); color: rgb(255, 255, 255); }
+
+.theme-yahoo .btn-primary:hover { background-color: rgb(15, 105, 255); }
+
+.theme-yahoo .btn-primary:active, .theme-yahoo .btn-primary:focus { background-color: rgb(0, 58, 188); }
+
+.theme-yahoo .btn-primary-warning { color: rgb(255, 255, 255); }
+
+.theme-yahoo .btn-secondary { background: transparent; border-color: rgb(24, 143, 255); color: rgb(24, 143, 255); }
+
+.theme-yahoo .btn-secondary:hover { background: transparent; border-color: rgb(15, 105, 255); color: rgb(15, 105, 255); }
+
+.theme-yahoo .btn-secondary:active, .theme-yahoo .btn-secondary:focus { background: transparent; border-color: rgb(0, 58, 188); color: rgb(0, 58, 188); }
+
+.theme-yahoo .link, .theme-yahoo .link-btn, .theme-yahoo a { color: rgb(24, 143, 255); }
+
+.theme-yahoo .link-btn:active, .theme-yahoo .link:active, .theme-yahoo a:active { color: rgb(0, 58, 188); }
+
+.theme-yahoo .text-field input:focus { border-color: rgb(24, 143, 255); }
+
+.theme-yahoo .modal-content-holder .header-img { background-color: rgb(24, 143, 255); }
+
+.theme-yahoo .modal-content-holder .header-img.light-bg { background-color: rgb(245, 248, 250); }
+
+.theme-yahoo .modal-content-holder .header-img.inactive-bg { background-color: rgb(204, 204, 204); }
+
+.theme-yahoo .loading-spinner circle { stroke: rgb(24, 143, 255); }
+
+.theme-yahoo .btn-primary-alert .btn-spinner circle, .theme-yahoo .btn-primary .btn-spinner circle { stroke: rgb(255, 255, 255); }
+
+.theme-yahoo .btn-secondary .btn-spinner circle { stroke: rgb(24, 143, 255); }
+
+.theme-yahoo .btn-secondary-alert .btn-spinner circle { stroke: red; }

@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+.Profile-avatar, .Profile-thumbnail { background-repeat: no-repeat; background-position: center center; background-size: cover; }
+
+.Profile-button, .Profile-header-cta, .Profile-menu-link { text-decoration: none; transition: all 125ms ease-in-out 0s; }
+
+.Profile-header:focus, .Profile-menu-link:focus, .Profile-thumbnail:focus, .accessibility-focus:focus { outline-offset: -3px; }
+
+.Profile-thumbnail { display: block; width: 30.1px; height: 30px; border-radius: 4px; cursor: pointer; }
+
+.Profile-thumbnail.has-notification { position: relative; }
+
+.Profile-thumbnail.has-notification::after { position: absolute; top: -6px; right: -6px; width: 12px; height: 12px; border-width: 2px; border-style: solid; border-color: inherit; border-radius: 50%; box-sizing: border-box; content: ""; }
+
+.Profile-thumbnail.has-notification.is-warning::after { background-color: rgb(245, 60, 60); background-clip: content-box; }
+
+.Profile-header { text-decoration: none; padding: 20px; display: flex; flex-direction: row; border-bottom: 1px solid rgb(225, 225, 225); }
+
+.Profile-header:active .Profile-header-cta, .Profile-header:hover .Profile-header-cta { color: rgb(44, 44, 44); box-shadow: rgb(44, 44, 44) 0px -1px 0px 0px inset; }
+
+.Profile-avatar { width: 64px; height: 64px; border-radius: 4px; flex-shrink: 0; }
+
+.Profile-data { flex-grow: 1; margin-left: 16px; overflow: hidden; order: 1; }
+
+.Profile-name { font-size: 18px; line-height: 1.4; font-weight: 700; color: rgb(44, 44, 44); padding: 0px; margin: -3px 0px 0px; overflow-wrap: break-word; }
+
+.Profile-name_long { font-size: 14px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; text-overflow: ellipsis; max-height: 39.2px; }
+
+.Profile-email { font-size: 14px; margin: -1px 0px 12px; padding: 0px; line-height: 1.25; color: rgb(112, 112, 112); word-break: break-all; }
+
+.Profile-header-cta { font-size: 14px; padding-bottom: 1px; display: inline-block; color: rgb(75, 75, 75); box-shadow: rgb(75, 75, 75) 0px -1px 0px 0px inset; }
+
+.Profile-notification { padding: 20px; border-bottom: 1px solid rgb(225, 225, 225); text-align: center; }
+
+.Profile-notification-details { display: flex; margin-bottom: 16px; align-items: flex-start; }
+
+.Profile-notification-message { padding: 0px; margin: 0px; flex-grow: 1; color: rgb(75, 75, 75); line-height: 1.5; text-align: left; }
+
+.Profile-button { font-size: 15px; font-weight: 700; display: inline-block; padding: 7.5px 16px 9.5px; text-transform: capitalize; color: rgb(75, 75, 75); border-radius: 16px; background-color: transparent; }
+
+.Profile-button:active, .Profile-button:hover { color: rgb(44, 44, 44); background-color: rgb(245, 245, 245); }
+
+.Profile-button.is-warning { padding: 5.5px 14px 7.5px; color: rgb(245, 60, 60); border: 2px solid rgb(245, 60, 60); }
+
+.Profile-button.is-warning:active, .Profile-button.is-warning:hover { color: rgb(255, 255, 255); background-color: rgb(245, 60, 60); }
+
+.Profile-menu { margin: 6px 0px; padding: 0px; list-style: none; }
+
+.Profile-menu-link { display: block; padding: 8px 20px; font-size: 14px; line-height: 1.5; color: rgb(75, 75, 75); }
+
+.Profile-menu-link:active, .Profile-menu-link:hover { color: rgb(44, 44, 44); background-color: rgb(245, 245, 245); }
+
+.Profile-localLinks-menu { padding: 6px 0px; }
+
+.Profile-localLinks-menu .Profile-menu { margin: 0px; }
+
+.Profile-localLinks-menu .Profile-menu-text { max-height: 42px; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; text-overflow: ellipsis; overflow-wrap: break-word; }
+
+.Profile-localLinks-title { padding: 8px 20px; color: rgb(112, 112, 112); font-size: 11px; line-height: 1.5; text-transform: uppercase; font-weight: 600; }
+
+.Profile-notification-icon { width: 20px; height: 20px; margin-right: 10px; flex-shrink: 0; }
+
+.Profile-notification-icon svg { max-width: 100%; display: block; }
+
+.Profile-notification-icon.is-warning path { fill: rgb(245, 60, 60); }
+
+.Profile.theme-dark .Profile-dropdown { background-color: rgb(22, 22, 22); }
+
+.Profile.theme-dark .Profile-name { color: rgb(252, 252, 252); }
+
+.Profile.theme-dark .Profile-email, .Profile.theme-dark .Profile-notification-message { color: rgb(153, 153, 153); }
+
+.Profile.theme-dark .Profile-applications, .Profile.theme-dark .Profile-content, .Profile.theme-dark .Profile-dropdown, .Profile.theme-dark .Profile-header, .Profile.theme-dark .Profile-localLinks-menu, .Profile.theme-dark .Profile-notification { border-color: rgb(49, 49, 49); }
+
+.Profile.theme-dark .Profile-button, .Profile.theme-dark .Profile-menu-link { color: rgb(185, 185, 185); }
+
+.Profile.theme-dark .Profile-button:active, .Profile.theme-dark .Profile-button:hover, .Profile.theme-dark .Profile-menu-link:active, .Profile.theme-dark .Profile-menu-link:hover { color: rgb(205, 205, 205); background-color: rgb(35, 35, 35); }
+
+.Profile.theme-dark .Profile-button.is-warning { color: rgb(245, 60, 60); }
+
+.Profile.theme-dark .Profile-button.is-warning:active, .Profile.theme-dark .Profile-button.is-warning:hover { color: rgb(22, 22, 22); background-color: rgb(245, 60, 60); }
+
+.Profile.theme-dark .Profile-header-cta { color: rgb(255, 255, 255); box-shadow: rgb(255, 255, 255) 0px -1px 0px 0px inset; }
+
+.Profile.theme-dark .Profile-header:active .Profile-header-cta, .Profile.theme-dark .Profile-header:hover .Profile-header-cta { color: rgb(226, 226, 226); box-shadow: rgb(226, 226, 226) 0px -1px 0px 0px inset; }
+
+.Profile.theme-grey .Profile-dropdown { background-color: rgb(40, 40, 40); }
+
+.Profile.theme-grey .Profile-name { color: rgb(252, 252, 252); }
+
+.Profile.theme-grey .Profile-email, .Profile.theme-grey .Profile-notification-message { color: rgb(153, 153, 153); }
+
+.Profile.theme-grey .Profile-applications, .Profile.theme-grey .Profile-content, .Profile.theme-grey .Profile-dropdown, .Profile.theme-grey .Profile-header, .Profile.theme-grey .Profile-localLinks-menu, .Profile.theme-grey .Profile-notification { border-color: rgb(62, 62, 62); }
+
+.Profile.theme-grey .Profile-button, .Profile.theme-grey .Profile-menu-link { color: rgb(205, 205, 205); }
+
+.Profile.theme-grey .Profile-button:active, .Profile.theme-grey .Profile-button:hover, .Profile.theme-grey .Profile-menu-link:active, .Profile.theme-grey .Profile-menu-link:hover { color: rgb(253, 253, 254); background-color: rgb(50, 50, 50); }
+
+.Profile.theme-grey .Profile-button.is-warning { color: rgb(245, 60, 60); }
+
+.Profile.theme-grey .Profile-button.is-warning:active, .Profile.theme-grey .Profile-button.is-warning:hover { color: rgb(40, 40, 40); background-color: rgb(245, 60, 60); }
+
+.Profile.theme-grey .Profile-header-cta { color: rgb(255, 255, 255); box-shadow: rgb(255, 255, 255) 0px -1px 0px 0px inset; }
+
+.Profile.theme-grey .Profile-header:active .Profile-header-cta, .Profile.theme-grey .Profile-header:hover .Profile-header-cta { color: rgb(226, 226, 226); box-shadow: rgb(226, 226, 226) 0px -1px 0px 0px inset; }
+
+[dir="rtl"] .Profile { text-align: right; }
+
+[dir="rtl"] .Profile-data { margin-left: 0px; margin-right: 16px; }
+
+[dir="rtl"] .Profile-dropdown { right: auto; left: 0px; }
+
+.Profile { font: 400 14px / 1 adobe-clean, sans-serif; box-sizing: border-box; color: rgb(75, 75, 75); text-align: left; position: relative; width: 30px; height: 30px; display: block; letter-spacing: 0px; -webkit-font-smoothing: antialiased; }
+
+.Profile *, .Profile ::after, .Profile ::before { box-sizing: inherit; }
+
+.Profile.Profile-hidden .Profile-dropdown { display: none; visibility: hidden; }
+
+.Profile.Profile-invisible .Profile-dropdown { display: block; visibility: hidden; }
+
+.Profile.Profile-collapsed .Profile-dropdown { animation: 0.2s ease 0s 1 normal both running profile-collapsed; }
+
+.Profile.Profile-expanded .Profile-dropdown { animation: 0.2s ease 0s 1 normal both running profile-expanded; }
+
+@-webkit-keyframes profile-collapsed { 
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes profile-collapsed { 
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@-webkit-keyframes profile-expanded { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes profile-expanded { 
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.Profile-dropdown { width: 320px; position: absolute; top: 30px; right: 0px; border: 1px solid rgb(225, 225, 225); border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; background-color: rgb(255, 255, 255); overflow: hidden; -webkit-font-smoothing: antialiased; box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px -1px; }
+
+.Profile-applications, .Profile-content, .Profile-localLinks-menu { border-bottom: 1px solid rgb(225, 225, 225); }

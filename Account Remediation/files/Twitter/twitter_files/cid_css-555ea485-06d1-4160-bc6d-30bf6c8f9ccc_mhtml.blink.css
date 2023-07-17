@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.DraftEditor-editorContainer, .DraftEditor-root, .public-DraftEditor-content { height: inherit; max-height: inherit; min-height: inherit; overflow: auto; text-align: initial; }
+
+.public-DraftEditor-content[contenteditable="true"] { -webkit-user-modify: read-write-plaintext-only; }
+
+.DraftEditor-root { width: 100%; position: relative; user-select: none; }
+
+.DraftEditor-editorContainer { background-color: rgba(255, 255, 255, 0); border-left: 0.1px solid transparent; position: relative; z-index: 1; }
+
+.public-DraftEditor-block { position: relative; }
+
+.DraftEditor-alignLeft .public-DraftStyleDefault-block { text-align: left; }
+
+.DraftEditor-alignLeft .public-DraftEditorPlaceholder-root { left: 0px; text-align: left; }
+
+.DraftEditor-alignCenter .public-DraftStyleDefault-block { text-align: center; }
+
+.DraftEditor-alignCenter .public-DraftEditorPlaceholder-root { margin: 0px auto; text-align: center; width: 100%; }
+
+.DraftEditor-alignRight .public-DraftStyleDefault-block { text-align: right; }
+
+.DraftEditor-alignRight .public-DraftEditorPlaceholder-root { right: 0px; text-align: right; }
+
+.public-DraftEditorPlaceholder-root { color: rgb(83, 100, 113); padding-bottom: 2px; padding-top: 2px; position: absolute; z-index: 1; }
+
+.public-DraftEditorPlaceholder-inner { user-select: none; }
+
+.public-DraftEditorPlaceholder-hasFocus { color: rgb(83, 100, 113); }
+
+.DraftEditorPlaceholder-hidden { display: none; }
+
+.public-DraftStyleDefault-block { overflow: hidden; padding-bottom: 2px; padding-top: 2px; position: relative; white-space: pre-wrap; }
+
+div:only-child > .public-DraftStyleDefault-block br::selection { background: transparent; }
+
+div:only-child > .public-DraftStyleDefault-block::selection { background: transparent; }
+
+.public-DraftStyleDefault-ltr { direction: ltr; text-align: left; }
+
+.public-DraftStyleDefault-rtl { direction: rtl; text-align: right; }
+
+.singleline .public-DraftStyleDefault-block { overflow-x: auto; white-space: nowrap; }
+
+.singleline .public-DraftStyleDefault-block::-webkit-scrollbar { display: none; }
+
+.longform-header-one { font-family: TwitterChirpExtendedHeavy, Verdana, System; font-size: 31px; line-height: 40px; margin-bottom: 28px; margin-top: 0px; }
+
+.longform-header-two { font-size: 26px; font-weight: 800; line-height: 36px; margin-bottom: 28px; margin-top: 0px; }
+
+.longform-unstyled { font-size: 17px; line-height: 28px; margin-bottom: 28px; margin-top: 0px; }
+
+.longform-unordered-list-item, .longform-ordered-list-item { font-size: 17px; line-height: 28px; margin-bottom: 12px; margin-top: 0px; padding-left: 8px; }
+
+.longform-header-one .public-DraftStyleDefault-block, .longform-header-two .public-DraftStyleDefault-block, .longform-unstyled .public-DraftStyleDefault-block, .longform-unordered-list-item .public-DraftStyleDefault-block, .longform-ordered-list-item .public-DraftStyleDefault-block { padding-bottom: 0px; padding-top: 0px; }
+
+ul, ol { margin-bottom: 28px; margin-top: 0px; padding-left: 20px; }

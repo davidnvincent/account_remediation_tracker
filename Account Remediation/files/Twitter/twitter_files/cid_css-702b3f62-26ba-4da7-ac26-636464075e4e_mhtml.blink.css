@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@font-face { font-family: TwitterChirpExtendedHeavy; src: url("https://abs.twimg.com/fonts/v1/chirp-extended-heavy-web.woff") format("woff"); font-weight: 800; }
+
+@font-face { font-family: TwitterChirp; src: url("https://abs.twimg.com/fonts/v2/chirp-regular-web.woff") format("woff"); font-weight: 400; }
+
+@font-face { font-family: TwitterChirp; src: url("https://abs.twimg.com/fonts/v2/chirp-medium-web.woff") format("woff"); font-weight: 500; }
+
+@font-face { font-family: TwitterChirp; src: url("https://abs.twimg.com/fonts/v2/chirp-bold-web.woff") format("woff"); font-weight: 700; }
+
+@font-face { font-family: TwitterChirp; src: url("https://abs.twimg.com/fonts/v2/chirp-heavy-web.woff") format("woff"); font-weight: 800; }

@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+#unsupported-browser-view { position: absolute; width: 100%; min-height: 100%; background-color: rgb(245, 245, 245); display: none; font-family: Helvetica, Arial, sans-serif; text-align: center; }
+
+.unsupported-browser-content { max-width: 640px; margin: 20px auto; padding: 0px 20px; }
+
+.no-script { display: none; }
+
+.unsupported-browser-recommended-browsers { margin: 50px 0px; }
+
+.recommended-browser { display: inline-block; margin: 10px 20px; }
+
+.unsupported-browser-logo { background-image: url("./images/unsupported_browser_sprites.png"); background-repeat: no-repeat; width: 82px; height: 82px; position: relative; margin: 0px auto; }
+
+.recommended-browser-title { color: black; }
+
+.recommended-browser-link-icon { background-image: url("./images/unsupported_browser_sprites.png"); background-position: -214px -111px; width: 12px; height: 12px; display: inline-block; margin-left: 3px; }
+
+.bg-adobe { background-position: -10px -10px; }
+
+.bg-chrome { background-position: -112px -10px; }
+
+.bg-edge { background-position: -10px -112px; }
+
+.bg-firefox { background-position: -112px -112px; }
+
+.bg-safari { background-position: -214px -10px; }
